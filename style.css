@@ -62,8 +62,125 @@ body{
     text-align: center;
 }
 .porque_subtitulo{
-    color: white;
+    color: rgb(196, 240, 126);
     font-size: 20px;
     margin-top: 1rem;
     text-align: center;
+    /*quebrar em duas linhas*/
+    word-wrap: break-word;
+    width: 50%;
+    margin: 0 auto;
+    
 }
+
+.descreve_motivos{
+    /*organizar as divisões, estabilidade, decisões, endividamento, Investimento  em retangulos com fundo cinza e texto roxo, coloca borda azul*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex: auto;
+    margin-top: 5rem;
+    
+}
+.estabilidade{
+    width: 250px;
+    height: 200px;
+    background-color: gray;
+    border: 2px solid rgb(179, 94, 228);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.decisoes{
+    width: 250px;
+    height: 200px;
+    background-color: gray;
+    border: 2px solid rgb(179, 94, 228);
+    border-radius: 10px;
+    padding: 10px;
+}
+.endividamento{
+    width: 250px;
+    height: 200px;
+    background-color: gray;
+    border: 2px solid rgb(179, 94, 228);
+    border-radius: 10px;
+    padding: 10px;
+}
+.investimento{
+    width: 250px;
+    height: 200px;
+    background-color: gray;
+    border: 2px solid rgb(179, 94, 228);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.edu_criancas{/*organizar os topicos de edu_criancas, o_titulo_edu_ciancas, economize_criancas, objetivos_ciancas, gestao_dindin_cirancas, investir_crianca */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex: auto;
+    margin-top: 5rem;
+    font-size: 18px;
+
+}
+.o_titulo_edu_ciancas{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10rem;
+    text-align: center;
+}
+.economize_criancas{
+    width: 250px;
+    height: 350px;
+    background-color: gray;
+    border: 2px solid rgb(179, 94, 228);
+    border-radius: 10px;
+    padding: 10px;
+}
+.piggy_bank{
+    width: 250px;
+    height: 180px;
+}
+.objetivos_ciancas{
+    width: 250px;
+    height: 350px;
+    background-color: gray;
+    border: 2px solid rgb(179, 94, 228);
+    border-radius: 10px;
+    padding: 10px;
+}
+.child_urso{
+    width: 250px;
+    height: 180px;
+}
+
+.gestao_dindin_cirancas{
+    width: 250px;
+    height: 350px;
+    background-color: gray;
+    border: 2px solid rgb(179, 94, 228);
+    border-radius: 10px;
+    padding: 10px;
+}
+.investir_crianca{
+    width: 250px;
+    height: 350px;
+    background-color: gray;
+    border: 2px solid rgb(179, 94, 228);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
+    
